@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -375,7 +368,7 @@ section {
 }
 .skills .progress .skill {
   padding: 0;
-  margin: 0 0 6px 0;
+  margin: 10px 0 6px 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -599,7 +592,7 @@ section {
 .services .icon-box {
   margin-bottom: 20px;
 }
-.services .icon {
+.photos .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -951,4 +944,12 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/*--------------------------------------------------------------
+# galleryuse
+--------------------------------------------------------------*/
+
+.galleryuse{
+  margin: 10px;
 }
