@@ -210,6 +210,60 @@
   });
 
   /**
+   * Porfolio isotope and filter
+   */
+   window.addEventListener('load', () => {
+    let photosContainer = select('.photos-container');
+    if (photosContainer) {
+      let photosIsotope = new Isotope(photosContainer, {
+        itemSelector: '.photos-item'
+      });
+
+      let photosFilters = select('#photos-flters li', true);
+
+      on('click', '#photos-flters li', function(e) {
+        e.preventDefault();
+        photosFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        photosIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        photosIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
+   * Initiate portfolio lightbox 
+   */
+   const photosLightbox = GLightbox({
+    selector: '.photos-lightbox'
+  });
+
+  /**
+   * Photos details slider
+   */
+  new Swiper('.photos-details-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+  /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
@@ -249,4 +303,5 @@
       mirror: false
     })
   });
+
 })()
