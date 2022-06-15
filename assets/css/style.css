@@ -953,6 +953,7 @@ section {
 
 .galleryuse{
   margin: 10px;
+  padding: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -1096,4 +1097,9 @@ section {
 }
 .photos-details .photos-description p {
   padding: 0;
+}
+
+/* ------------------------- */
+.box-shadow {
+	box-shadow: 0 0 10px #9d9c96;
 }
