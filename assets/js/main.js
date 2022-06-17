@@ -304,4 +304,14 @@
     })
   });
 
+  // draw use
+$("img.draw").click(function() {
+  var large_image = '<img src= ' + $(this).attr("src") + '></img>';
+  $('#large_image').html($(large_image).animate({ height: '50%', width: '50%' }, 500));
+});
+
+
 })()
+
+
+
