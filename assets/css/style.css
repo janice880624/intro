@@ -1132,7 +1132,7 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.video #video-flters li:hover, .video #photos-flters li.filter-active {
+.video #video-flters li:hover, .video #video-flters li.filter-active {
   color: #149ddd;
 }
 .video #video-flters li:last-child {
@@ -1175,7 +1175,7 @@ section {
   transition: 0.3s;
   width: 50%;
 }
-.video .pvideo-wrap .video-links a:hover {
+.video .video-wrap .video-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
 .video .video-wrap .video-links a + a {
@@ -1207,7 +1207,7 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.video-details .photos-details-slider .swiper-pagination .swiper-pagination-bullet {
+.video-details .video-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
