@@ -450,7 +450,7 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -460,7 +460,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -472,10 +472,10 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
   color: #149ddd;
 }
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 .portfolio .portfolio-wrap {
@@ -962,7 +962,7 @@ section {
 .photos .photos-item {
   margin-bottom: 30px;
 }
-.photos #photos-flters {
+.photos #photos-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -972,7 +972,7 @@ section {
   padding: 2px 15px;
 }
 
-.photos #photos-flters li {
+.photos #photos-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -984,10 +984,10 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.photos #photos-flters li:hover, .photos #photos-flters li.filter-active {
+.photos #photos-filters li:hover, .photos #photos-filters li.filter-active {
   color: #149ddd;
 }
-.photos #photos-flters li:last-child {
+.photos #photos-filters li:last-child {
   margin-right: 0;
 }
 .photos .photos-wrap {
@@ -1110,7 +1110,7 @@ section {
 .video .video-item {
   margin-bottom: 30px;
 }
-.video #video-flters {
+.video #video-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -1120,7 +1120,7 @@ section {
   padding: 2px 15px;
 }
 
-.video #video-flters li {
+.video #video-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -1132,10 +1132,10 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.video #video-flters li:hover, .video #video-flters li.filter-active {
+.video #video-filters li:hover, .video #video-filters li.filter-active2 {
   color: #149ddd;
 }
-.video #video-flters li:last-child {
+.video #video-filters li:last-child {
   margin-right: 0;
 }
 .video .video-wrap {
