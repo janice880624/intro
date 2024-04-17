@@ -1,3 +1,3 @@
 # intro
 
-https://janice.tw/intro/
+https://janice880624.github.io/intro/
