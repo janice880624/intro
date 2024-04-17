@@ -29,10 +29,13 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/htmleaf-demo.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/accordion.css" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -187,13 +190,69 @@
 
           </div>
 
+          
+
+        </div>
+
+        <div class="row">
+          <div class="">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                              <a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Journal Publication
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                                <li> (2023.11.10) Cybersecure Omnidirectional Autonomous Mobile Robot (OAMR) for Indoor Manipulation of Roll-to-Roll Flexible Printed Circuits (FPC), International Journal of iRobotics, 6(3), 19-29 </li>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Conference Publication
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                            <li> (2023.8.30-9.1) Cyber-Security Authentication for Autonomous Mobile Robots in Smart Factories, 2023 International Conference on Advanced Robotics and Intelligent Systems (ARIS 2023), Paper Number 1182, Taipei, Taiwan </li>
+                            <li> (2023.8.30-9.1) An Autonomous Mobile Robot for Roll-to-Roll Inspection Line of Flexible Printed Circuits, 2023 International Conference on Advanced Robotics and Intelligent Systems (ARIS 2023), Paper Number 1181, Taipei, Taiwan </li>
+                            <li> (2023.8.20-23) An Omnidirectional Autonomous Mobile Robot (OAMR) for Indoor Mobile Manipulation Applications, ASME 2023 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC/CIE 2023), DETC2023-118000, Boston, MA, USA </li>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Research Project
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                            <li> 2022/8/5-2023/12/31 網通產業供應鏈韌性強化暨 5G 專網智慧工廠應用推動計畫</li>
+                            <li> 2022 年教育部智慧製造跨域整合人才培育計-AR即時監控精密製造系統之實作</li>
+                            <li> 2023 年 IMBD-2023 全國智慧製造大數據分析競賽 </li>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
 
       </div>
     </section><!-- End Skills Section -->
 
+
     <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <section id="resume" class="resume ">
       <div class="container">
 
         <div class="section-title">
@@ -277,6 +336,18 @@
                 <li> 電腦輔助立體製圖 丙級 </li>
               </ul>
             </div>
+            <div class="resume-item">
+              <h4> 社團法人中華緊急救護技術協會 </h4>
+              <ul>
+                <li> 初級救護技術員 </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4> 中華民國體育專業發展協會 </h4>
+              <ul>
+                <li> C 級游泳教練 </li>
+              </ul>
+            </div>
 
             <h3 class="resume-title"> Patent </h3>
             <div class="resume-item">
@@ -343,6 +414,8 @@
             <div class="resume-item">
               <h4> 助教 </h4>
               <ul>
+                <li> 台灣科技大學大學部 112-2「Python 程式設計」助教 </li>
+                <li> 台灣科技大學大學部 111-2「Python 程式設計」助教 </li>
                 <li> Micro:bit 麥昆小車及 TELLO 四軸飛行器的課程研習 </li>
                 <li> 私立靜心中小學國中部物聯網課程 </li>
                 <li> 私立復興中小學 107 2 國小動力機械模型創意課程 </li>
@@ -357,7 +430,7 @@
     </section><!-- End Resume Section -->
     
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfoliosection-bg">
       <div class="container">
 
         <div class="section-title">
@@ -526,7 +599,7 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="photos-flters">
               <li data-filter="*" class="filter-active"> All </li>
-              <li data-filter=".filter-edu1"> 程式教育 </li>
+              <!-- <li data-filter=".filter-edu1"> 程式教育 </li> -->
               <li data-filter=".filter-edu2"> 研習活動 </li>
               <li data-filter=".filter-edu3"> Other </li>
             </ul>
@@ -566,7 +639,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 photos-item filter-edu3">
+          <!-- <div class="col-lg-4 col-md-6 photos-item filter-edu3">
             <div class="photos-wrap">
               <img src="assets/img/photos/voxedit/1.png" class="img-fluid" alt="">
               <div class="photos-links">
@@ -574,9 +647,9 @@
                 <a href="photos/voxedit.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4 col-md-6 photos-item filter-edu1">
+          <!-- <div class="col-lg-4 col-md-6 photos-item filter-edu1">
             <div class="photos-wrap">
               <img src="assets/img/photos/school/137.png" class="img-fluid" alt="">
               <div class="photos-links">
@@ -584,8 +657,8 @@
                 <a href="photos/experimental-edu.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
-          </div>
-
+          </div> -->
+<!-- 
           <div class="col-lg-4 col-md-6 photos-item filter-edu3">
             <div class="photos-wrap">
               <img src="assets/img/photos/tkd/49.png" class="img-fluid" alt="">
@@ -594,7 +667,7 @@
                 <a href="photos/tkd.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 photos-item filter-edu3">
             <div class="photos-wrap">
